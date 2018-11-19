@@ -12,14 +12,64 @@ body {
   background: #3C3838;
 }
 
-  h1{
-  font-family: 'Rubik Mono One', sans-serif;
-  text-align: center;
+nav{
+    background-color: #66a3ff;
   }
 
   #logo {
-        margin: 0px 0px 0px 10px;
-        height: 70px;
+    margin: 0 0 0 10px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+    li a:link    {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    font-weight:      bold;
+    background-color: none;
+    color:            black;
+    }
+    li a:visited {
+    /* Applies to all visited links */
+    text-decoration:  none;
+    font-weight:      bold;
+    background-color: none;
+    color:            black;
+    }
+    li a:hover   {
+    /* Applies to links under the pointer */
+    text-decoration:  none;
+    font-weight:      bold;
+    background-color: #003380;
+    color:            black;
+    }
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+
+  }
+    .nav-ul  li {
+          float: left;
+      }
+
+      .nav-ul li a {
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+
+  h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
   }
 
     ul.img-list {
@@ -66,9 +116,22 @@ body {
 
 </style>
 
+<header role="banner">
+    <nav role="navigation">
+      <a href="#">
+        <img id="logo" src="images/logo.png" alt="meet for coffee logo" style="height:50px;border:0;">
+      </a>
+      <ul class="nav-ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Neighbourhoods</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
 <body>
-  <img id="logo" src="images/logo.png" alt="meet for coffee's logo"/> <br />
   <div class="container">
     <div="hoods">
       <h1>Neighbourhoods</h1>
