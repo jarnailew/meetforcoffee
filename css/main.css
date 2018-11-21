@@ -8,6 +8,11 @@ html, body {
     width: 100%;
     font-size: 16px;
 }
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
 .intro {
     height: 100%;
     width: 100%;
@@ -103,3 +108,57 @@ li#contact {
  padding: 0px 10px 0px 10px;
 
 }
+
+.whitehead {
+  font-family:'Rambla', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#hoods {
+  color: white;
+  margin: 0 auto;
+  background: grey;
+}
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+  ul.img-list li {
+    display: inline-block;
+    height: 267px;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 400px;
+  }
+
+    span.text-content {
+      background: rgba(0,0,0,0.5);
+      color: white;
+      cursor: pointer;
+      display: table;
+      height: 267px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 400px;
+      opacity: 0;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+
+      span.text-content span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+        ul.img-list li:hover span.text-content {
+          opacity: 1;
+        }
