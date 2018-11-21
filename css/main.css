@@ -9,10 +9,6 @@ html, body {
     font-size: 16px;
 }
 
-p {
-  font-family: 'Oswald', sans-serif;
-}
-
 .intro {
     height: 100%;
     width: 100%;
@@ -109,17 +105,21 @@ li#contact {
 
 }
 
-.whitehead {
-  font-family:'Rambla', sans-serif;
-  color: white;
-  text-align: center;
-}
-
 #hoods {
   color: white;
   margin: 0 auto;
   background: grey;
 }
+
+  #hoods h1 {
+    font-family:'Rambla', sans-serif;
+    color: white;
+    text-align: center;
+  }
+
+  #hoods p {
+    text-align: center;
+  }
 
 ul.img-list {
   list-style-type: none;
