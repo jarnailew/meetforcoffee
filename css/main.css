@@ -28,12 +28,14 @@ html, body {
   margin: 0 auto;
   text-align: center;
 }
-.content h1 {
+
+h1.content  {
   font-family:'Rambla', sans-serif;
   color: #F9F3F4;
   text-shadow: 0px 0px 300px #000;
   font-size: 500%;
 }
+
 .btn {
   border-radius: 9px;
   font-family: 'Oswald', sans-serif;
@@ -56,4 +58,48 @@ html, body {
     font-size: 110%;
     padding: 7px 15px;
   }
+}
+
+body#contact
+{
+  text-align: center;
+  background: url("../images/beverage-1869598_1920.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.fa {
+  color:white;
+  padding: 30px;
+  margin:20px 50px 20px 50px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  background-position: center;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ul#contact {
+ padding: 1px;
+ background:black;
+}
+li#contact {
+ display: inline;
+ padding: 0px 10px 0px 10px;
+
 }
