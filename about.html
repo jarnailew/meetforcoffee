@@ -1,48 +1,69 @@
 <!DOCTYPE html>
 <head>
-  <title>meet for coffee</title>
-  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Open+Sans" rel="stylesheet">
-  <style>
-    body {
-      text-align: center;
-      background: url("images/photo-1496582490020-60c1344c64aa.jpg");
-      background-size: cover;
-      background-position: center;
-      color: white;
-    }
-
-    h1 {
-      font-family: "Rambla", sans-serif;
-    }
-
-    #abouttext {
-      background: rgba(0,0,0,0.5);
-    }
-
-    p {
-      font-family: 'Oswald', sans-serif;
-      font-size: 22px;
-    }
-
-    span {
-      color: #3EA3C7;
-      font-weight: bold;
-    }
-
-  </style>
-
+<link rel="stylesheet"type="text/css"href="css/main.css">
+<link href='css/bootstrap.css' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="js/bootstrap.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meet for coffee</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
+
 <body>
-  <h1>ABOUT</h1>
-  <div id="abouttext">
-    <p>Are you planning to hang out with your friends but sick of going to Starbucks or Costa Coffee every time you want a catch up? <br />
-    We know the feeling. Let us help! </p>
-    <p><span>meet for coffee</span> was set up by three coffee and coding aficionados to help Londoners find somewhere new to grab a latte. London is such a huge, bustling city and coffee culture is booming - there's never been a better time to get involved! </p>
-    <p>So, the next time you're about to send off a <span>meet for coffee?</span> text to your group chat, visit our website and open your eyes to the great places to hang out in our beautiful city.
-    </p>
+  <!--This is the NAV bar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logo2.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="featured.html">Featured</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Neighbourhoods</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+              </li>
+      </div>
+  </div>
+  </nav>
+
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+  	<div class="col-12">
+  			<h1 class="display-4">About.</h1>
+  	</div>
   </div>
 
-  <p>In partnership with:</p> <br />
-  <img src="https://techtalentcharter.co.uk/wp-content/uploads/Code-First-red-transparent.png" alt="Code First: Girls logo" height="70">
+    <div class="row" id="abouttext">
+      <div class="col-md-6 col-md-offset-3">
+        <p>Are you planning to hang out with your friends but sick of going to Starbucks or Costa Coffee every time you want a catch up? <br />
+          We know the feeling. Let us help! </p>
+          <p><span>meet for coffee</span> was set up by three coffee and coding aficionados to help Londoners find somewhere new to grab a latte. London is such a huge, bustling city and coffee culture is booming - there's never been a better time to get involved! </p>
+          <p>So, the next time you're about to send off a <span>meet for coffee?</span> text to your group chat, visit our website and open your eyes to the great places to hang out in our beautiful city.
+          </p>
+          <br />
+            <p>In partnership with:</p> <br />
+            <img src="https://techtalentcharter.co.uk/wp-content/uploads/Code-First-red-transparent.png" alt="Code First: Girls logo" height="70">
+      </div>
+    </div>
+  </div>
+
+
 
 </body>
