@@ -146,6 +146,10 @@ h1.content  {
   text-align: center;
 }
 
+.imgcircle {
+  position: relative;
+}
+
 /*----Bootstrap instructions-----*/
 
 /*---Media Queries --*/
