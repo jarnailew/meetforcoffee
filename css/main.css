@@ -111,6 +111,10 @@ h1.content  {
   text-align: center;
 }
 
+/*----Styling for About page-----*/
+#abouttext {
+  text-align: center;
+}
 
 /*----Bootstrap instructions-----*/
 
