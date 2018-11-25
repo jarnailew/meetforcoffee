@@ -105,11 +105,11 @@ h1.content  {
 }
 
 
-
-
-
-
-
+/*----Styling for Neighbourhoods section-----*/
+#hoods {
+  padding-top: 50px;
+  text-align: center;
+}
 
 
 /*----Bootstrap instructions-----*/
