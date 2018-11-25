@@ -41,6 +41,26 @@ html, body {
     margin: 1rem;
   }
 
+  .social a {
+    font-size: 5em;
+    padding: 5rem;
+  }
+
+  .fa-facebook {
+    color: #3b5998
+  }
+  .fa-twitter {
+    color: #3b5998
+  }
+  .fa-google-plus-g {
+    color: #dd4639
+  }
+  .fa-instagram {
+    color: #517FA4
+  }
+  .fa-youtube {
+    color: #bb0000
+  }
 .section {
   position: relative;
   width: 100%;
@@ -132,6 +152,7 @@ h1.content  {
     font-size: 110%;
     padding: 7px 15px;
   }
+
 
 /*----Styling for Neighbourhoods section-----*/
 #hoods {
