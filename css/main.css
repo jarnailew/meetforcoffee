@@ -150,6 +150,10 @@ h1.content  {
   position: relative;
 }
 
+#aboutgrey {
+  background-color: rgb(233,236,239);
+}
+
 /*----Bootstrap instructions-----*/
 
 /*---Media Queries --*/
