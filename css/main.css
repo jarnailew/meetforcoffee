@@ -12,7 +12,7 @@ html, body {
     color: #222
     font-family:'Poppins', sans-serif;
 }
-
+/*----Nav bar styling---*/
 .navbar {
   padding: .8rem;
 }
@@ -27,6 +27,33 @@ html, body {
   font-size: 15px
 }
 
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.column img {
+  padding: 1rem
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/*---Categories styling---*/
 .fa-bolt {
       color: #6a4337
   }
@@ -45,7 +72,7 @@ html, body {
     font-size: 5em;
     padding: 5rem;
   }
-
+/*---Social media styling---*/
   .fa-facebook {
     color: #3b5998
   }
@@ -158,27 +185,6 @@ h1.content  {
       box-sizing: border-box;
   }
 
-  /* Style inputs */
-  input[type=text], select, textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-  }
-
-  input[type=submit] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-      background-color: #45a049;
-  }
 
   /* Style the container/contact section */
   #cafeform {
