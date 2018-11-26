@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+/*--Bootstrap core JavaScript --*/
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
 /*----video styling----*/
 html, body {
     margin: 0;
@@ -289,8 +298,6 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
 
 
 
