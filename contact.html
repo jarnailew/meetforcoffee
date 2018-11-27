@@ -3,106 +3,162 @@
 
 <head>
   <link rel="stylesheet"type="text/css"href="css/main.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  </style>
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/bootstrap.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meet for coffee</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 </head>
-<body id="contact">
+
+<body>
+  <!--This is the NAV bar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logo2.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="mainpage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="featured.html">Featured</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="mainpage.html#hoods">Locations</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="mainpage.html#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  </nav>
+
   <div class="container">
-    <h1 id="contacthead" class="content"> Contact Us </h1>
-  </div>
 
-<div>
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-instagram"></a>
-  <a href="#" class="fa fa-twitter"></a>
+    <!-- Portfolio Item Heading -->
+<div class="row welcome text-center">
+    <div class="col-12">
+        <h1 class="display-4">Our pick this month.</h1>
+      </div>
+    </div>
+
+    <!-- Portfolio Item Row -->
+    <div class="row">
+
+      <div class="col-md-8">
+        <img class="img-fluid" src="images/kahaila.jpg" alt="Kahaila Cafe, Brick Lane">
+      </div>
+
+      <div class="col-md-4">
+        <h3 class="my-3">KAHAILA, Brick Lane</h3>
+        <p>Kahaila regards itself as a coffee shop with a conscience, so they make sure that all their products are ethically sourced and where possible,
+          locally sourced. As a charity, any profit that is made there goes into supporting local community projects and other charitable causes which
+          makes the coffee taste even better!</p>
+        <h3 class="my-3">Choice drinks</h3>
+        <ul>
+          <li>Cafe Latte</li>
+          <li>Avocado milkshake</li>
+          <li>Macchiato</li>
+          <li>Espresso (with a slice of raspberry & pistachio cake)</li>
+        </ul>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Related Projects Row -->
+    <h3 class="my-4">Previous picks</h3>
+
+    <div class="row">
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="images/palm-vaults-s.png" alt="Palm Vaults, Hackney">
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="images/shoreditch-grind.jpg" alt="Shoreditch Grind, Shoreditch">
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="images/paper-cup.png" alt="Paper and Cup, Hoxton">
+        </a>
+      </div>
+
+      <div class="col-md-3 col-sm-6 mb-4">
+        <a href="#">
+          <img class="img-fluid" src="images/brunswick-east.jpg" alt="Brunswick East, Dalston">
+        </a>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!--This is the FOOTER of the page-->
+  <footer>
+<div class="container-fluid padding">
+<div class="row text-center">
+    <div class="col-md-4">
+      <img src="images/logo2.png">
+      <hr class="light">
+      <p>020-4951-3493</p>
+      <p>meetfor@coffee.com</p>
+      <p> 100 Random Road</p>
+      <p> London, EC2 1AB</p>
+    </div>
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Our Hours</h5>
+        <hr class="light">
+        <p> Monday: 9am - 5pm</p>
+        <p> Saturday: 10am - 4pm </p>
+        <p> Sunday: Closed </p>
+    </div>
+
+    <div class="col-md-4">
+        <hr class="light">
+        <h5>Other offices</h5>
+        <hr class="light">
+        <p> 112 Nowhere Avenue</p>
+        <p> 175 Doesntexist Street</p>
+        <p> 100 What Road</p>
+    </div>
+    <div class="col-12">
+      <hr class="light">
+      <h5>&copy; meetforcoffee.com</h5>
+    </div>
+
+
+
 </div>
+</div>
+</footer>
 
-<!-- Form -->
-
-<form>
-  <div class="form-group">
-    <label for="NameText">Your Name</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First & last name">
-    <br/>
-    <label for="InputEmail">Your Email Address</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
-    <br/>
-    <label for="InputEmail">Query</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
-  </div>
-  <div class="form-check">
-    <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      Please sign me up for your newsletter
-    </label>
-  </div>
-  <button type="submit" class="btn btn-secondary" onClick="alert('Thanks for getting in contact with us - we will try and get back to you as soon as we can!')" >Submit</button>
-
-</form>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-<form id="contact-form" method="post" action="contact.php" role="form">
-
-        <div class="messages"></div>
-
-        <div class="controls">
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_name">Firstname *</label>
-                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_lastname">Lastname *</label>
-                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_email">Email *</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_phone">Phone</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="form_message">Message *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Enter your message *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="submit" class="btn btn-primary btn-send" value="Send message">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="text-muted"><strong>*</strong> These fields are required</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </form>
-
-  <input type="email" placeholder="Your email">
-<input type="submit">
 </body>
 </html>
